@@ -14,7 +14,6 @@ import java.util.List;
 public class UserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private UserDAO userDAO;
-
     public void init() throws ServletException {
 
         userDAO = new UserDAO();
@@ -110,4 +109,6 @@ public class UserServlet extends HttpServlet {
         response.sendRedirect("list");
 
     }
+
+    ////afasgsag
 }
